@@ -5,7 +5,7 @@ AS = as
 AR = ar
 
 INCLUDE := -I/usr/local/include
-LIBS := -L/usr/lib64 -L/usr/local/lib -lpthread -lleveldb
+LIBS := -L/usr/lib64 -L/usr/local/lib 
 CFLAGS := 
 CPPFLAGS = -std=c++11
 
